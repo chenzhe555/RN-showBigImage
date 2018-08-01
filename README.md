@@ -13,6 +13,7 @@
 
 
 ```
+let handle= findNodeHandle(this.refs.imageRef1);
 UIManager.measureInWindow(handle, (x,y,w,h)=>{
             console.log(x);
             console.log(y);
